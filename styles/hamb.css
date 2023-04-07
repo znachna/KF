@@ -50,10 +50,10 @@
   }
   
   .icon::before {
-    top: min(-1.2vw, -1.5vh);
+    top: min(-1.2vw, -2vh);
   }
   .icon::after {
-    top: max(1.2vw, 1.5vh);
+    top: max(1.2vw, 2vh);
   }
   
   .button:hover icon:before {

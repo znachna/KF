@@ -23,3 +23,17 @@
   .info-items li:last-child{
     text-align: right;
   }
+
+  @media (max-width:767px) {
+    #menu-list{
+      justify-content: start;
+    }
+    .info-items ul {
+      margin: 0;
+      padding: 0;
+    }
+    .info-items li{
+      font-size: 4vh;
+      padding-left: 0 !important;
+    }
+  }
