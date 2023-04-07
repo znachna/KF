@@ -100,6 +100,28 @@ body .info-block:nth-child(2n+2){
     color: #7b1fa2;
 }
 
+@media  (orientation: portrait) and (max-width: 767px) {
+    .info-block{
+        flex-direction: column;
+    }
+    body .info-block:nth-child(odd){
+        flex-direction: column-reverse;
+    }
+    .info-block{
+        height: fit-content;
+    }
+    .info-block p{
+        padding: 0;
+    }
+    .info-block img, .info-block p{
+        width: 90%;
+    }
+    p{
+        font-size: 2.5vh !important;
+        /* font-family: 'Gilroy-Regular' !important; */
+    }
+}
+
 
 /* @keyframes getDown{
     0% {

@@ -90,6 +90,11 @@ body .info-block:nth-child(2n+2){
     animation: 2.5s ease-in-out fromLeft;
 }
 
+@media  (orientation: portrait) and (max-width: 767px) {
+    .info-block p{
+        font-size: 5vh;
+    }
+}
 
 
 

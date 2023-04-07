@@ -36,8 +36,8 @@ body{
 .about-spec{
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    justify-content: space-around;
+    height: 65vh;
+    justify-content: space-between;
     align-items: flex-start;
     font-family: 'Girloy-Bold';
     padding-left: 2vw;
